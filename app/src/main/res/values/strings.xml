@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI CaLCULATOR</string>
+    <string name="edtwt">Enter Your Weight</string>
+    <string name="edtf"> Height In Foot</string>
+    <string name="edti">Height In Inches </string>
+    <string name="btnc">CALCULATE BMI</string>
+    <string name="txtr">YOUR RESULTS!</string>
+
+
+
+</resources>

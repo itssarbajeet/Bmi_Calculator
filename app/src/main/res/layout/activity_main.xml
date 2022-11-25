@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:id="@+id/linearl"
+    >
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:padding="20sp"
+        android:hint="@string/edtwt"
+        android:layout_gravity="center"
+        android:id="@+id/eedtw"
+
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/eedtf"
+
+        android:padding="20sp"
+        android:hint="@string/edtf"
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="20sp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="@string/edti"
+        android:id="@+id/eedti"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:padding="20sp"
+        android:gravity="center"
+        android:hint="@string/btnc"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:id="@+id/bbtnc"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR RESULT!"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/txtre"
+
+        />
+
+
+</LinearLayout>
